@@ -41,9 +41,8 @@ const HarbourSpaceCalculator = () => {
         {/* Header */}
         <div className="text-center mb-12 pt-8">
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
-            <div className="mb-4">
               <Image 
-                src="https://keystoneacademic-res.cloudinary.com/image/upload/c_pad,w_640,h_304/dpr_auto/f_auto/q_auto/v1/element/24/248514_HSUTCC_Circle.png" 
+                src="/hero_img.png" 
                 alt="Harbour.Space Institute of Technology @ UTCC"
                 className="mx-auto max-w-md w-full h-auto"
                 width={640}
@@ -55,9 +54,8 @@ const HarbourSpaceCalculator = () => {
                 <div className="w-64 h-px bg-gray-300 mx-auto mb-3"></div>
                 <div className="text-gray-600">@ UTCC</div>
               </div>
-            </div>
           </div>
-          <h2 className="text-2xl font-semibold text-gray-900 mb-2">Scholarship Calculator</h2>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-2">Harbour.Space Scholarship Calculator</h2>
           <p className="text-gray-600">Calculate your tuition costs with scholarship benefits</p>
         </div>
 
