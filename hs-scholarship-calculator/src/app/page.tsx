@@ -11,7 +11,7 @@ const HarbourSpaceCalculator = () => {
     master: 22900
   };
   
-  const eurToThb = 37;
+  const eurToThb = 38;
   
   const calculateCosts = () => {
     const yearlyFee = fees[degreeType];
@@ -225,7 +225,7 @@ const HarbourSpaceCalculator = () => {
 
               {/* Exchange Rate Info */}
               <div className="text-center text-gray-500 text-xs p-3 bg-gray-50 rounded-lg border border-gray-200">
-                Exchange Rate: 1 EUR = 37 THB
+                Exchange Rate: 1 EUR = 38 THB
               </div>
             </div>
           </div>
